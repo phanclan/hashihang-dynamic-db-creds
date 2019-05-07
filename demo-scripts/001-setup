@@ -13,15 +13,17 @@ sudo apt install -y unzip mysql-server jq
 
 # Download and install Vault, consul-template and envconsul
 curl -so vault.zip ${VAULT_DOWNLOAD}
-curl -so consul-template.zip ${CONSUL_TEMPLATE_DOWNLOAD}
-curl -so envconsul.zip ${ENVCONSUL_DOWNLOAD}
+#curl -so consul-template.zip ${CONSUL_TEMPLATE_DOWNLOAD}
+#curl -so envconsul.zip ${ENVCONSUL_DOWNLOAD}
 
 unzip vault.zip
-unzip consul-template.zip
-unzip envconsul.zip
+#unzip consul-template.zip
+#unzip envconsul.zip
 
 install -d bin
 
-sudo install vault consul-template envconsul bin
+#sudo install vault consul-template envconsul bin
+sudo install vault bin
 
-rm -f vault vault.zip consul-template consul-template.zip envconsul envconsul.zip
+#rm -f vault vault.zip consul-template consul-template.zip envconsul envconsul.zip
+rm -f vault vault.zip
