@@ -9,9 +9,7 @@ ENVCONSUL_DOWNLOAD="https://releases.hashicorp.com/envconsul/${ENVCONSUL_VERSION
 
 # Update and install supporting software
 sudo apt update -y
-#sudo apt install -y unzip mysql-server jq
-sudo apt install -y unzip jq
-echo "Run sudo apt install -y mysql-server manually"
+sudo apt install -y unzip mysql-server jq
 
 # Download and install Vault, consul-template and envconsul
 curl -so vault.zip ${VAULT_DOWNLOAD}
