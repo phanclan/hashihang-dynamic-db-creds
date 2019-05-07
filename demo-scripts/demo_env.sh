@@ -1,9 +1,9 @@
 # If you are manually creating the infrastructure, set 
 # the following DB_ variables to point at your MySQL database
-export DB_USERNAME="<admin username>"
-export DB_PASSWORD="<admin user password>"
-export DB_HOSTNAME="<database hostname>"
-export DB_PORT="<database port>"
+export DB_USERNAME="root"
+export DB_PASSWORD="mysql"
+export DB_HOSTNAME="127.0.0.1"
+export DB_PORT="3306"
 
 # The following variables are set to use the Vault dev
 # instance in the demo
