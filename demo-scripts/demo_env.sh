@@ -9,3 +9,4 @@ export DB_PORT="3306"
 # instance in the demo
 export VAULT_ADDR=http://127.0.0.1:8200
 export VAULT_ROOT_TOKEN=vault-root-token
+export WHODAMAN = "YOUDAMAN"
